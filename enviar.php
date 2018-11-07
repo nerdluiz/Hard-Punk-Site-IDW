@@ -24,7 +24,7 @@ $corpoemail = 'Fale Conosco - Hard Punk
 if(mail("hardpunkbr@gmail.com", "Fale Conosco",$corpoemail,$headers)){
 
 	echo "<script>alert('Mensagem enviada com sucesso');</script>";
-	header("Location: Home.html");
+
 } else{
 	echo "<script>alert('Erro ao enviar, tente diretamente pelo email hardpunkbr@gmail.com');script";
 }
