@@ -21,10 +21,11 @@ if(mail("hardpunkbr@gmail.com", "Fale Conosco",$corpoemail,$headers)){
  
  
        echo "<script>alert('Mensagem enviada com sucesso!');</script>"; 
-       header("Location: index.php");
+       header("Location: formulario.php");
  
 } else{
  
       echo "<script>alert('Erro ao enviar, tente diretamente pelo email hardpunkbr@gmail.com');</script>";  
- 
+ 	  header("Location: formulario.php");
+
 }
