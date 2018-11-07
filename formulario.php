@@ -95,7 +95,7 @@
 			</div>
 
 			<div class="form-group">				
-				<button type="button" class="btn btn-primary">Enviar </button>
+				<input type="submit" name="btn_enviar" value="Enviar">
 			</div>
 		</div>
 		</form>
