@@ -26,6 +26,5 @@ if(mail("hardpunkbr@gmail.com", "Fale Conosco",$corpoemail,$headers)){
 } else{
  
       echo "<script>alert('Erro ao enviar, tente diretamente pelo email hardpunkbr@gmail.com');</script>";  
- 	  header("Location: formulario.php");
 
 }
