@@ -31,7 +31,7 @@
 	<h1 align="center">Fale Conosco - Deixe um comentário, elogio ou reclamação!</h1>
 	<h2 align="center">Sua opinião é muito importante para nós!</h2>
 
-	<!--form action="enviar.php" method="post" class="contactForm">
+	<form action="enviar.php" method="post" class="contactForm">
 		<div class="container">					
 			<div class="form-group">
 				<label for="txtNome">Nome:</label>
@@ -98,35 +98,7 @@
 				<input type="submit" name="btn_enviar" value="Enviar">
 			</div>
 		</div>
-		</form-->
-		<form action="enviar.php" method="post" class="contactForm">
- 
- 
-                     
-                     
-                          <div class="form-group">
-                            <label for="name">Nome:</label>
-                            <input type="text" class="form-control" name="nome" />
-                        <!--     <div class="validation"></div> -->
-                          </div>
-                          <div class="form-group">
-                            <label for="email">Email</label>
-                                <input type="text" class="form-control" name="email" />
-                        <!--     <div class="validation"></div> -->
-                          </div>
-                          <div class="form-group">
-                            <label for="subject">Assunto</label>
-                            <input type="text" class="form-control" name="assunto" />
-                        <!--     <div class="validation"></div> -->
-                          </div>
-                          <div class="form-group">
-                            <label for="message">Mensagem</label>
-                            <textarea class="form-control" name="mensagem" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-                        <!--     <div class="validation"></div> -->
-                          </div>
-                           
-                           <input type="submit" name="btn_enviar"  value="Enviar"/>
-                        </form>
+		</form>
 		<footer>
   		<p align="center"> <br/>Hard Punk Group</p>
 	</footer>
