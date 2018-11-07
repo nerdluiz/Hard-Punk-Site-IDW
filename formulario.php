@@ -22,7 +22,7 @@
           <ul class="navbar-nav mr-auto">
             <li><a class="nav-link" href="./TheStrangerFish.html">Sobre o Jogo</a></li>
             <li><a class="nav-link" href="./Desenvolvedores.html">Desenvolvedores</a></li>
-            <li><a class="nav-link" href="./formulario.html">Contato</a></li>
+            <li><a class="nav-link" href="./formulario.php">Contato</a></li>
           </ul>
         </div>
       </nav>
@@ -31,16 +31,16 @@
 	<h1 align="center">Fale Conosco - Deixe um comentário, elogio ou reclamação!</h1>
 	<h2 align="center">Sua opnião é muito importante para nós!</h2>
 
-	<form action="enviar.php">
+	<form action="enviar.php" method="post" class="contactForm">
 		<div class="container">					
 			<div class="form-group">
 				<label for="txtNome">Nome:</label>
-				<input name ="Nome"id="txtNome" type="text" class="form-control"/>
+				<input name ="txtNome"id="txtNome" type="text" class="form-control"/>
 			</div>
 
 			<div class="form-group">
 				<label for="txtMetrica">Motivo:</label>
-				<select name ="Motivo" id="txtMetrica" class="form-control">
+				<select name ="txtMetrica" id="txtMetrica" class="form-control">
 					<option disabled selected></option>
 					<option>Opnião</option>
 					<option>Reclamação</option>
@@ -51,17 +51,17 @@
 
 			<div class="form-group">
 				<label for="txtIdade">Idade:</label>
-				<input name ="Idade" id="txtIdade" type="number" class="form-control"/>
+				<input name ="txtIdade" id="txtIdade" type="number" class="form-control"/>
 			</div>
 
 			<div class="form-group">
 				<label for="txtEmail">E-mail:</label>
-				<input name ="Email" id="txtEmail" type="text" class="form-control"/>
+				<input name ="txtEmail" id="txtEmail" type="text" class="form-control"/>
 			</div>
 
 			<div class="form-group">
 				<label for="txtOpiniao">O que você achou do nosso jogo?</label>
-				<select name ="Opiniao" id="txtOpiniao" class="form-control">
+				<select name ="txtOpiniao" id="txtOpiniao" class="form-control">
 					<option disabled selected></option>
 					<option>Legal</option>
 					<option>Chato</option>
@@ -75,23 +75,23 @@
 			<div class="form-group">
 				<label>Você recomendaria o nosso jogo para alguém?</label>
 				<div class="form-check form-check-inline">
-					<input name ="CheckSim" class="form-check-input" type="radio" name="txtOrganico" id="txtOrgSim" value="sim">
+					<input class="form-check-input" type="radio" name="txtOrganico" id="txtOrgSim" value="sim">
 					<label class="form-check-label" for="txtOrgSim">Sim</label>
 				</div>
 				<div class="form-check form-check-inline">
-					<input name ="CheckNao" class="form-check-input" type="radio" name="txtOrganico" id="txtOrgNao" value="nao">
+					<input class="form-check-input" type="radio" name="txtOrganico" id="txtOrgNao" value="nao">
 					<label class="form-check-label" for="txtOrgNao">Não</label>
 				</div>
 				<br/>
 				<div class="form-check form-check-inline">
 					<label for="txtPorque">Porque? </label>
-					<input name ="Porque" id="txtPorque" type="text" class="form-control"/>
+					<input name ="txtPorque" id="txtPorque" type="text" class="form-control"/>
 				</div>
 			</div>
 				
 			<div class="form-group">
 				<label for="txtComent">Comentário:</label>
-				<textarea name ="Comentario" id="txtComent" type="text" class="form-control" rows="10" cols="60" maxlength="500">Digite os seus comentários sobre o nosso jogo!</textarea>
+				<textarea name ="txtComent" id="txtComent" type="text" class="form-control" rows="10" cols="60" maxlength="500">Digite os seus comentários sobre o nosso jogo!</textarea>
 			</div>
 
 			<div class="form-group">				
