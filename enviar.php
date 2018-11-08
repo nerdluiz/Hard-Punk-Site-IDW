@@ -1,10 +1,10 @@
 <?php
 
-$nome = $_POST['Nome'];
-$motivo = $_POST['Motivo'];
-$idade = $_POST['Idade'];
-$email = $_POST['Email'];
-$opiniao = $_POST['Opiniao'];
+$nome = $_POST['txtNome'];
+$motivo = $_POST['txtMetrica'];
+$idade = $_POST['txtIdade'];
+$email = $_POST['txtEmail'];
+$opiniao = $_POST['txtOpiniao'];
 $coment = $_POST['txtComent'];
 
 $headers = "From: " . $nome;
