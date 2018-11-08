@@ -35,7 +35,7 @@
 		<div class="container">					
 			<div class="form-group">
 				<label for="txtNome">Nome:</label>
-				<input name ="txtNome"id="txtNome" type="text" class="form-control"/>
+				<input name ="txtNome" id="txtNome" type="text" class="form-control"/>
 			</div>
 
 			<div class="form-group">

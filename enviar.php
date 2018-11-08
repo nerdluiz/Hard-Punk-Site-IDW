@@ -15,7 +15,7 @@ $corpoemail = 'Fale Conosco - Hard Punk
 				Idade:' .$idade.'
 				Email:' .$email.'
 				Opinião:' .$opiniao.'
-				Comentário:' .$coment.' ';
+				Comentário:' .$coment.;
 
 if(mail("hardpunkbr@gmail.com", "Fale Conosco",$corpoemail,$headers)){
  
