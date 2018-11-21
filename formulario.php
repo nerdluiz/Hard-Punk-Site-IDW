@@ -31,7 +31,7 @@
 	<h1 align="center">Fale Conosco - Deixe um comentário, elogio ou reclamação!</h1>
 	<h2 align="center">Sua opinião é muito importante para nós!</h2>
 
-	<form action="enviar.php" method="post" class="contactForm">
+	<form action="processa.php" method="post" class="contactForm">
 		<div class="container">					
 			<div class="form-group">
 				<label for="txtNome">Nome:</label>
