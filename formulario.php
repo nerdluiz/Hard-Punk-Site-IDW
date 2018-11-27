@@ -77,12 +77,12 @@
 			<div class="form-group">
 				<label style="color:White">Você recomendaria o nosso jogo para alguém?</label>
 				<div class="form-check form-check-inline">
-					<input class="form-check-input" type="radio" name="txtRecon" id="txtReconSim" value="sim">
-					<label class="form-check-label" for="txtReconSim">Sim</label>
+					<input class="form-check-input" type="radio" name="txtRecon" id="txtRecon" value="sim">
+					<label class="form-check-label" for="txtRecon" style="color:White">Sim</label>
 				</div>
 				<div class="form-check form-check-inline">
-					<input class="form-check-input" type="radio" name="txtRecon" id="txtReconNao" value="nao">
-					<label class="form-check-label" for="txtReconNao">Não</label>
+					<input class="form-check-input" type="radio" name="txtRecon" id="txtRecon" value="nao">
+					<label class="form-check-label" for="txtRecon" style="color:White">Não</label>
 					&nbsp;&nbsp;<input name ="txtPorque" id="txtPorque" type="text" class="form-control" placeholder = "Conte-nos o porquê"/>
 				</div>
 				
