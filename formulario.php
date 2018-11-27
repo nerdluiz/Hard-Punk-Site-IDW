@@ -30,7 +30,7 @@
       </nav>
     </header>
 
-	<h1 align="center">Fale Conosco - Deixe um comentário, elogio ou reclamação!</h1>
+	<h1 align="center" style="color:White">Fale Conosco - Deixe um comentário, elogio ou reclamação!</h1>
 	<h2 align="center">Sua opinião é muito importante para nós!</h2>
 
 	<form action="processa.php" method="post" class="contactForm">
