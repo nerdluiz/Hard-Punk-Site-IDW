@@ -3,12 +3,14 @@
 		<meta charset="utf-8">
 		<title>HARD PUNK - Fale Conosco</title>
 		<link href="./css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="./css/black.css" rel="stylesheet"/>
+
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	    <script src="./js/bootstrap.min.js"></script>
 	    <script src="./js/bootstrap.js"></script>
 	</head>
 
-<body>
+<body background="Gray.jpg" >
 
 	<!--Navbar-->
 	<header>
@@ -35,13 +37,13 @@
 		<div class="container">					
 			<div class="form-group">
 				<label for="txtNome">Nome:</label>
-				<input name ="txtNome" id="txtNome" type="text" class="form-control"/>
+				<input name ="txtNome" id="txtNome" type="text" class="form-control" placeholder = "Digite seu nome"/>
 			</div>
 
 			<div class="form-group">
 				<label for="txtMetrica">Motivo:</label>
 				<select name ="txtMetrica" id="txtMetrica" class="form-control">
-					<option disabled selected></option>
+					<option></option>
 					<option>Opnião</option>
 					<option>Reclamação</option>
 					<option>Dúvidas</option>
@@ -51,18 +53,18 @@
 
 			<div class="form-group">
 				<label for="txtIdade">Idade:</label>
-				<input name ="txtIdade" id="txtIdade" type="number" class="form-control"/>
+				<input name ="txtIdade" id="txtIdade" type="number" class="form-control"/ placeholder = "Digite sua idade">
 			</div>
 
 			<div class="form-group">
 				<label for="txtEmail">E-mail:</label>
-				<input name ="txtEmail" id="txtEmail" type="text" class="form-control"/>
+				<input name ="txtEmail" id="txtEmail" type="email" class="form-control", placeholder = "Digite seu E-mail"/>
 			</div>
 
 			<div class="form-group">
 				<label for="txtOpiniao">O que você achou do nosso jogo?</label>
 				<select name ="txtOpiniao" id="txtOpiniao" class="form-control">
-					<option disabled selected></option>
+					<option></option>
 					<option>Legal</option>
 					<option>Chato</option>
 					<option>Emocionante</option>
@@ -75,23 +77,23 @@
 			<div class="form-group">
 				<label>Você recomendaria o nosso jogo para alguém?</label>
 				<div class="form-check form-check-inline">
-					<input class="form-check-input" type="radio" name="txtOrganico" id="txtOrgSim" value="sim">
-					<label class="form-check-label" for="txtOrgSim">Sim</label>
+					<input class="form-check-input" type="radio" name="txtRecon" id="txtReconSim" value="sim">
+					<label class="form-check-label" for="txtReconSim">Sim</label>
 				</div>
 				<div class="form-check form-check-inline">
-					<input class="form-check-input" type="radio" name="txtOrganico" id="txtOrgNao" value="nao">
-					<label class="form-check-label" for="txtOrgNao">Não</label>
+					<input class="form-check-input" type="radio" name="txtRecon" id="txtReconNao" value="nao">
+					<label class="form-check-label" for="txtReconNao">Não</label>
+					&nbsp;&nbsp;<input name ="txtPorque" id="txtPorque" type="text" class="form-control" placeholder = "Conte-nos o porquê"/>
 				</div>
-				<br/>
+				
 				<div class="form-check form-check-inline">
-					<label for="txtPorque">Porque? </label>
-					<input name ="txtPorque" id="txtPorque" type="text" class="form-control"/>
+					
 				</div>
 			</div>
 				
 			<div class="form-group">
 				<label for="txtComent">Comentário:</label>
-				<textarea name ="txtComent" id="txtComent" type="text" class="form-control" rows="10" cols="60" maxlength="500">Digite os seus comentários sobre o nosso jogo!</textarea>
+				<textarea name ="txtComent" id="txtComent" type="text" class="form-control" rows="10" cols="60" maxlength="500" placeholder = "Digite os seus comentários sobre o nosso jogo!"></textarea>
 			</div>
 
 			<div class="form-group">				
