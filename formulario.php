@@ -31,17 +31,17 @@
     </header>
 
 	<h1 align="center" style="color:White">Fale Conosco - Deixe um comentário, elogio ou reclamação!</h1>
-	<h2 align="center">Sua opinião é muito importante para nós!</h2>
+	<h2 align="center" style="color:White">Sua opinião é muito importante para nós!</h2>
 
 	<form action="processa.php" method="post" class="contactForm">
 		<div class="container">					
 			<div class="form-group">
-				<label for="txtNome">Nome:</label>
+				<label for="txtNome" style="color:White">Nome:</label>
 				<input name ="txtNome" id="txtNome" type="text" class="form-control" placeholder = "Digite seu nome"/>
 			</div>
 
 			<div class="form-group">
-				<label for="txtMetrica">Motivo:</label>
+				<label for="txtMetrica" style="color:White">Motivo:</label>
 				<select name ="txtMetrica" id="txtMetrica" class="form-control">
 					<option></option>
 					<option>Opnião</option>
@@ -52,17 +52,17 @@
 			</div>
 
 			<div class="form-group">
-				<label for="txtIdade">Idade:</label>
+				<label for="txtIdade" style="color:White">Idade:</label>
 				<input name ="txtIdade" id="txtIdade" type="number" class="form-control"/ placeholder = "Digite sua idade">
 			</div>
 
 			<div class="form-group">
-				<label for="txtEmail">E-mail:</label>
+				<label for="txtEmail" style="color:White">E-mail:</label>
 				<input name ="txtEmail" id="txtEmail" type="email" class="form-control", placeholder = "Digite seu E-mail"/>
 			</div>
 
 			<div class="form-group">
-				<label for="txtOpiniao">O que você achou do nosso jogo?</label>
+				<label for="txtOpiniao" style="color:White">O que você achou do nosso jogo?</label>
 				<select name ="txtOpiniao" id="txtOpiniao" class="form-control">
 					<option></option>
 					<option>Legal</option>
@@ -75,7 +75,7 @@
 			</div>
 
 			<div class="form-group">
-				<label>Você recomendaria o nosso jogo para alguém?</label>
+				<label style="color:White">Você recomendaria o nosso jogo para alguém?</label>
 				<div class="form-check form-check-inline">
 					<input class="form-check-input" type="radio" name="txtRecon" id="txtReconSim" value="sim">
 					<label class="form-check-label" for="txtReconSim">Sim</label>
@@ -92,7 +92,7 @@
 			</div>
 				
 			<div class="form-group">
-				<label for="txtComent">Comentário:</label>
+				<label for="txtComent" style="color:White">Comentário:</label>
 				<textarea name ="txtComent" id="txtComent" type="text" class="form-control" rows="10" cols="60" maxlength="500" placeholder = "Digite os seus comentários sobre o nosso jogo!"></textarea>
 			</div>
 
@@ -102,7 +102,7 @@
 		</div>
 		</form>
 		<footer>
-  		<p align="center"> <br/>Hard Punk Group</p>
+  		<p align="center" style="color:White"> <br/>Hard Punk Group</p>
 	</footer>
 	</body>
 </html>
