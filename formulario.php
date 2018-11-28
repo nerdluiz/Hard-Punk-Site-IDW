@@ -33,7 +33,7 @@
 	<h1 align="center" style="color:White">Fale Conosco - Deixe um comentário, elogio ou reclamação!</h1>
 	<h2 align="center" style="color:White">Sua opinião é muito importante para nós!</h2>
 
-	<form action="processa.php" method="post" class="contactForm">
+	<form action="processa.php" action="infoscontroller.php" method="post" method="request" class="contactForm">
 		<div class="container">					
 			<div class="form-group">
 				<label for="txtNome" style="color:White">Nome:</label>
