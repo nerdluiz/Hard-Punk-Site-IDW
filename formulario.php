@@ -22,7 +22,8 @@
       
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mr-auto">
-            <li><a class="nav-link" href="./TheStrangerFish.html">Sobre o Jogo</a></li>
+            <li><a class="nav-link" href="./TheStrangerFish.html">Strange The Fish</a></li>
+            <li><a class="nav-link" href="./SevenKingdoms.html">Seven Kingdoms</a></li>
             <li><a class="nav-link" href="./Desenvolvedores.html">Desenvolvedores</a></li>
             <li><a class="nav-link" href="./formulario.php">Contato</a></li>
           </ul>
